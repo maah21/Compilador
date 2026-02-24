@@ -1,0 +1,26 @@
+/* Exemplo 10: Comparações */
+
+int main(void) {
+    int x;
+    int y;
+    
+    x = 10;
+    y = 5;
+    
+    if (x > y)
+        output(1);
+    else
+        output(0);
+    
+    if (x == y)
+        output(0);
+    else
+        output(0);
+    
+    if (x != y)
+        output(1);
+    else
+        output(0);
+    
+    return 0;
+}

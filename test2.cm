@@ -1,0 +1,30 @@
+/*Teste com arrays e loops*/
+int fatorial(int n)
+{
+    int result;
+    result = 1;
+    while (n > 1) {
+        result = result * n;
+        n = n - 1;
+    }
+    return result; /*Retorno da funcao*/
+}
+
+void main(void)
+{
+    int nums[5];
+    int i;
+    int total;
+    
+    i = 0;
+    total = 0;
+    
+    while (i < 5) {
+        nums[i] = i + 1;
+        total = total + nums[i];
+        i = i + 1;
+    }
+    
+    output(total);
+    output(fatorial(2));
+}

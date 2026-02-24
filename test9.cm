@@ -1,0 +1,26 @@
+/* Exemplo 9: Operações aritméticas */
+/*
+int main(void) {
+    int a;
+    int b;
+    int soma;
+    int sub;
+    int mult;
+    int div;
+    
+    a = 20;
+    b = 4;
+    
+    soma = a + b;
+    sub = a - b;
+    mult = a * b;
+    div = a / b;
+    
+    output = soma;
+    output = sub;
+    output = mult;
+    output = div;
+    
+    return 0;
+}
+*/
